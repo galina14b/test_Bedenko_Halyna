@@ -1,0 +1,29 @@
+.square {
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 35px);
+  width: 70px;
+  height: 70px;
+  transform: rotate(360deg);
+  animation: anim 5s linear infinite;
+}
+
+@keyframes anim {
+  0% {
+    transform: rotate(0deg);
+    background-color: red;
+  }
+
+  40% {
+    background-color: orange;
+  }
+
+  90% {
+    background-color: green;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    background-color: red;
+  }
+}

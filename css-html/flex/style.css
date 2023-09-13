@@ -1,0 +1,44 @@
+.body__flex {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 0 20px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.header,
+.nav,
+.footer {
+  margin-bottom: 10px;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.main {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 2;
+}
+
+.content {
+  width: calc(70% - 10px);
+  height: 100%;
+  border: 2px solid black;
+}
+
+.sidebar {
+  width: calc(30% - 10px);
+  height: 100%;
+  border: 2px solid black;
+}
+
+
